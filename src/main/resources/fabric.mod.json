@@ -3,7 +3,7 @@
   "id": "bettersmalldripleaf",
   "version": "${version}",
   "name": "Better Small Dripleaf",
-  "description": "Makes Small Dripleaf act like tall flowers, dropping themselves when destroyed and when fertilized with bonemeal.",
+  "description": "Makes Small Dripleaf act like tall flowers, dropping themselves when destroyed and when bonemealed.",
   "authors": [],
   "contact": {},
   "license": "MIT",
@@ -20,6 +20,6 @@
   "depends": {
     "fabricloader": ">=0.14.8",
     "fabric": "*",
-    "minecraft": "1.18.1"
+    "minecraft": "1.18.*"
   }
 }
