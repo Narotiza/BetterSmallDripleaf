@@ -3,7 +3,7 @@
   "id": "bettersmalldripleaf",
   "version": "${version}",
   "name": "Better Small Dripleaf",
-  "description": "Makes Small Dripleaf act like tall flowers, dropping themselves when destroyed and when bonemealed.",
+  "description": "Small Dripleaf is plantable on any surface Big Dripleaf can be, and drops itself when destroyed or bonemealed",
   "authors": [],
   "contact": {},
   "license": "MIT",
