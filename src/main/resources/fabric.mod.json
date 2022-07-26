@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "bettersmalldripleaf",
+  "version": "${version}",
+  "name": "Better Small Dripleaf",
+  "description": "Makes Small Dripleaf act like tall flowers, dropping themselves when destroyed and when fertilized with bonemeal.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bettersmalldripleaf/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "club.moonlane.bettersmalldripleaf.Bettersmalldripleaf"
+    ]
+  },
+  "mixins": [
+    "bettersmalldripleaf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
