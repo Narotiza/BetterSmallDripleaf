@@ -7,10 +7,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Overwrite;
 
 import java.util.Random;
-
-import static net.minecraft.block.Block.dropStack;
 
 @Mixin(SmallDripleafBlock.class)
 public abstract class MixinSmallDripleafGrow extends TallPlantBlock {
@@ -18,6 +17,7 @@ public abstract class MixinSmallDripleafGrow extends TallPlantBlock {
         super(settings);
     }
 
+    @Overwrite
     public void grow(ServerWorld world, Random random, BlockPos pos, BlockState state) {
         dropStack(world, pos, new ItemStack(this));
     }
